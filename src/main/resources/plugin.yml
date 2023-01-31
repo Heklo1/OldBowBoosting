@@ -1,0 +1,13 @@
+name: OldBowBoosting
+version: '${project.version}'
+main: me.heklo.oldbowboosting.OldBowBoosting
+api-version: 1.19
+authors: [ Heklo ]
+description: Allows 1.8 style bow boosting in 1.13+ servers.
+softdepend:
+  - WorldGuard
+commands:
+  obb-reload:
+    permission: obb.reload
+    description: Reloads the OldBowBoosting plugin.
+    permission-message: §cYou do not have permission to reload §bOldBowBoosting§c!

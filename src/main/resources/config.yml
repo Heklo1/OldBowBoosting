@@ -1,0 +1,38 @@
+# OldBowBoosting v1.0 by Heklo
+
+# Remove arrow randomization for perfectly straight boosting?
+remove-arrow-randomization: true
+
+# Should flame bows give fire to the booster?
+burn-booster: true
+
+# What should the arrows velocity be multiplied by?
+velocity-horizontal: 0.5
+velocity-vertical: 0.125
+
+
+
+######################################################################
+# Note: The remaining config options alter the mechanics for what is #
+# considered a 'boost'. It is easy to accidentally make bow boosting #
+# impossible if you don't understand these options. Best to leave it.#
+######################################################################
+
+# How long should the arrow be alive before boost (in ticks)?
+# 0 -> More likely to hit
+# 3 -> Default
+# 5+ -> Less likely to hit
+min-life-ticks: 3
+
+
+# Reduce the hitbox that the arrow must escape before hitting the player?
+# 0.5 -> More likely to hit
+# 0.1 -> Default
+# -0.4 -> Impossible to hit
+leave-hitbox-reduction: 0.1
+
+# Expand the hitbox the the arrow must re-enter to boost the player?
+# 3.0 -> Almost always hit, even with full power
+# 0.0 -> Default
+# -0.4 -> Impossible to hit
+enter-hitbox-expansion: 0.0
