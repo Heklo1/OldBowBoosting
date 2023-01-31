@@ -7,8 +7,8 @@ remove-arrow-randomization: true
 burn-booster: true
 
 # What should the arrows velocity be multiplied by?
-velocity-horizontal: 0.5
-velocity-vertical: 0.125
+velocity-horizontal: 0.4
+velocity-vertical: 0.1
 
 
 
